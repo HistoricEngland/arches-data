@@ -16,14 +16,25 @@ After cloning down this repo, check available package branches with:
         remotes/origin/sheep51x  
         remotes/origin/main
       
-From here, the desired package branch can be downloaded with:
+From here, the desired package branch can be downloaded in the arches-data directory with:
     
+    git checkout -b <local_branchname> <origin/branchname>
+    
+    e.g.
+    
+      C:\Development\repos>cd arches-data
+    
+      C:\Development\repos\arches-data>git checkout -b kh_fooBranch origin/sheep51x
+    
+
+Alternatively, if branch is known, then both cloning and package choice can be completed with:
+
     git clone -b <branchname> https://github.com/HistoricEngland/arches-data.git
     
     e.g.
     
-      git clone -b sheep51x https://github.com/HistoricEngland/arches-data.git
-    
-    
+      C:\Development\repos>git clone -b sheep510 https://github.com/HistoricEngland/arches-data.git
+
+
 Note: Branches are protected as it is not anticipated that data changes will be made to the packages.
       New packages should be added as new branches when available.

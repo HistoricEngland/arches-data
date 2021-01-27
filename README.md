@@ -25,5 +25,5 @@ From here, the desired package branch can be downloaded with:
       git clone -b sheep51x https://github.com/HistoricEngland/arches-data.git
     
     
-Note: Branches are protected as it is not anticipated that data chagnes will be made to the packages.
+Note: Branches are protected as it is not anticipated that data changes will be made to the packages.
       New packages should be added as new branches when available.
